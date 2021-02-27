@@ -1,0 +1,36 @@
+body {
+
+    padding: 70px;
+    background-color: rgb(234, 234, 245);
+
+}
+
+.blockquote{
+    display: flex;
+}
+
+h1 {
+
+    color: rgb(251, 255, 0);
+    -webkit-text-stroke : 1.5px ;
+    -webkit-text-stroke-color: rgb(0, 0, 0);
+}
+
+h2 {
+
+    color: rgb(208, 237, 82);
+
+}
+
+h4 {
+
+    color: rgb(206, 106, 13);
+    -webkit-text-stroke : 0.05px ;
+    -webkit-text-stroke-color : white;
+}
+
+p {
+    color: rgba(5, 5, 5, 0.535);
+    -webkit-text-stroke : 0.1px ;
+    -webkit-text-stroke-color: rgba(255, 255, 255, 0.398);
+}

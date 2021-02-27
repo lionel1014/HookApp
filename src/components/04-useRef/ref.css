@@ -1,0 +1,37 @@
+body {
+
+    padding: 70px;
+    background-color: rgb(69, 69, 73);
+
+}
+
+h2 {
+
+    color: rgb(79, 7, 7);
+
+}
+
+h1 {
+
+    color: rgb(253, 182, 115);
+    -webkit-text-stroke : 1.5px ;
+    -webkit-text-stroke-color: rgb(0, 0, 0);
+}
+
+.h1.borde {
+
+    -webkit-text-stroke : 5px;
+    -webkit-text-fill-color : white;
+
+}
+
+h4 {
+
+    color: rgb(206, 106, 13);
+    -webkit-text-stroke : 0.05px ;
+    -webkit-text-stroke-color : white;
+}
+
+p {
+    color: rgba(38, 6, 6, 0.693);
+}

@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 
 // import { CounterApp } from './components/01-useState/CounterApp';
 // import { CounterWhitCustomHook } from './components/01-useState/CounterWhitCustomHook';
-// import { HookApp } from './HookApp';
+import { HookApp } from './HookApp';
 // import { SimpleForm } from './components/02-useEffect/SimpleForm';
 // import { FormWhitCustomHook } from './components/02-useEffect/FormWhitCustomHook';
 // import { MultipleCustomHook } from './components/03-ejemplos/MultipleCustomHook';
@@ -15,11 +15,12 @@ import ReactDOM from 'react-dom';
 // import { CallbackHook } from './components/06-memos/CallbackHook';
 // import { Padre } from './components/07-tarea-memo/Padre';
 // import './components/08-useReducer/intro-reducer';
-import { TodoApp } from './components/08-useReducer/TodoApp';
+// import { TodoApp } from './components/08-useReducer/TodoApp';
+// import { MainApp } from './components/09-useContext/MainApp';
 
 
 ReactDOM.render(
-    <TodoApp />,
+    <HookApp />,
   document.getElementById('root')
 );
 

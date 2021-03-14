@@ -38,9 +38,9 @@ export const LayoutEffect = () => {
                 </p>
             </blockquote>
 
-            <pre>
+            {/* <pre>
                 {JSON.stringify(boxTamano , null , 2 )}
-            </pre>
+            </pre> */}
 
             <button className="btn btn-primary" onClick={ () => increment() } >
                 Siguiente frase : {counter}

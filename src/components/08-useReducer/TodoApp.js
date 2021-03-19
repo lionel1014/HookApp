@@ -62,14 +62,13 @@ export const TodoApp = () => {
     }
 
     return (
-        <div>
+        <div className="" >
             <h1> TodoApp : ({todos.length}) </h1>
             <hr />
-
             
             <div className="row">
 
-                <div className="col-7" >
+                <div className="col-5" >
 
                   <TodoList todos = {todos} handleToggle={handleToggle}  
                     handleDelete = {handleDelete}
@@ -78,7 +77,7 @@ export const TodoApp = () => {
                 </div>
 
 
-                <div className="col-5" >
+                <div className="col-7" >
 
                    <TodoAdd handleAddTodo = {handleAddTodo} />
                 

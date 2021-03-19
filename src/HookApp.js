@@ -19,7 +19,7 @@ import { Memorize } from './components/06-memos/Memorize';
 import { MemoHook } from './components/06-memos/MemoHook';
 import { CallbackHook } from './components/06-memos/CallbackHook';
 import { Padre } from './components/07-tarea-memo/Padre';
-import { TodoAdd } from './components/08-useReducer/TodoAdd';
+import { TodoApp } from './components/08-useReducer/TodoApp';
 import { MainApp } from './components/09-useContext/MainApp';
 
 
@@ -44,7 +44,7 @@ export const HookApp = () => {
                     <Route exact path="/memohook" component={ MemoHook } />
                     <Route exact path="/callbackhook" component={ CallbackHook } />
                     <Route exact path="/padre" component={ Padre } />
-                    <Route exact path="/todoapp" component={ TodoAdd } />
+                    <Route exact path="/todoapp" component={ TodoApp } />
                     <Route exact path="/mainapp" component={ MainApp } />
                     <Route exact path="/" component={ Saludo } />
                     <Redirect to="/" />
